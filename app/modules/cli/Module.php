@@ -1,5 +1,5 @@
 <?php
-namespace Threejs_learn\Modules\Cli;
+namespace App\Cli;
 
 use Phalcon\DiInterface;
 use Phalcon\Loader;
@@ -17,7 +17,7 @@ class Module implements ModuleDefinitionInterface
         $loader = new Loader();
 
         $loader->registerNamespaces([
-            'Threejs_learn\Modules\Cli\Tasks' => __DIR__ . '/tasks/',
+            'App\Cli\Tasks' => __DIR__ . '/tasks/',
         ]);
 
         $loader->register();

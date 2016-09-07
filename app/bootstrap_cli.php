@@ -41,7 +41,7 @@ $console = new ConsoleApp($di);
  * Register console modules
  */
 $console->registerModules([
-    'cli' => ['className' => 'Threejs_learn\Modules\Cli\Module']
+    'cli' => ['className' => 'App\Cli\Module']
 ]);
 
 /**

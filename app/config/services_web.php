@@ -15,7 +15,7 @@ $di->setShared('router', function () {
     $router = new Router();
 
     $router->setDefaultModule('frontend');
-    $router->setDefaultNamespace('Threejs_learn\Modules\Frontend\Controllers');
+    $router->setDefaultNamespace('App\Frontend\Controllers');
 
     return $router;
 });
@@ -59,6 +59,6 @@ $di->set('flash', function () {
 */
 $di->setShared('dispatcher', function() {
     $dispatcher = new Dispatcher();
-    $dispatcher->setDefaultNamespace('Threejs_learn\Modules\Frontend\Controllers');
+    $dispatcher->setDefaultNamespace('App\Frontend\Controllers');
     return $dispatcher;
 });

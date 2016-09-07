@@ -1,7 +1,9 @@
 <?php
-namespace Threejs_learn\Modules\Cli\Tasks;
+namespace App\Cli\Tasks;
 
-class MainTask extends \Phalcon\Cli\Task
+use Phalcon\Cli\Task;
+
+class MainTask extends Task
 {
     public function mainAction()
     {

@@ -7,6 +7,6 @@ use Phalcon\Cli\Dispatcher;
 */
 $di->setShared('dispatcher', function() {
     $dispatcher = new Dispatcher();
-    $dispatcher->setDefaultNamespace('Threejs_learn\Modules\Cli\Tasks');
+    $dispatcher->setDefaultNamespace('App\Cli\Tasks');
     return $dispatcher;
 });

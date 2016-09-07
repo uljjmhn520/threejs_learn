@@ -1,5 +1,5 @@
 <?php
-namespace Threejs_learn\Modules\Cli\Tasks;
+namespace App\Cli\Tasks;
 
 class VersionTask extends \Phalcon\Cli\Task
 {
