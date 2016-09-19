@@ -2,9 +2,13 @@
 
 namespace App\Frontend\Controllers;
 
-class IndexController extends ControllerBase
+class ShowController extends ControllerBase
 {
 
+    public function initialize()
+    {
+        $this->view->setLayout('empty');
+    }
     public function indexAction()
     {
 
@@ -12,9 +16,7 @@ class IndexController extends ControllerBase
 
     public function threeAction()
     {
-        $this->view->setLayout('empty');
-
-        //return false;
+        
     }
 }
 
